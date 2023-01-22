@@ -1,4 +1,4 @@
-# R-with-ggplot-data-visualization  
+# R with ggplot: Data Visualization  
 University of South Florida - Spring Workshop  
 Monday, February 27th, 2023  
 9:00 am - 10:30 am EST
