@@ -1,6 +1,6 @@
-# R-with-ggplot-data-visualization
-University of South Florida - Spring Workshop
-Monday, February 27th, 2023
+# R-with-ggplot-data-visualization  
+University of South Florida - Spring Workshop  
+Monday, February 27th, 2023  
 9:00 am - 10:30 am EST
 
 The goal for this workshop is to build on the fundamental R skills introduced in [previous workshops](https://github.com/sborrego/r-programming-an-introduction) and focus on data visualization. We will predominately use packages from tidyverse including the powerful and popular ggplot2. This is a hands-on workshop, please follow the installation and RStudio access instructions provided prior to the date of the workshop.
