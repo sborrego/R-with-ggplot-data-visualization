@@ -3,10 +3,10 @@ title: 'R with ggplot2: Data Visualization'
 author: "Stacey Borrego"
 date: "1/22/2023"
 output: 
-  word_document: default
   html_document: default
   pdf_document: 
       highlight: zenburn
+  word_document: default
 fontsize: 12pt
 urlcolor: blue
 linkcolor: red
@@ -203,7 +203,8 @@ head(mydata)
 # Determine what class the column "sex" currently is.
 class(mydata$sex)
 
-# Factor the values in the column "sex" and write over the values currently in the data frame.
+# Factor the values in the column "sex" and write over the values 
+# currently in the data frame.
 mydata$sex <- factor(mydata$sex)
 
 # Look at the first 6 rows of the data frame.
@@ -212,7 +213,8 @@ head(mydata)
 # Use `summary()` to identify the different values in the column "sex".
 summary(mydata$sex)
 
-# Determine the levels of the factored values. The levels are automatically ordered alphabetically.
+# Determine the levels of the factored values. 
+# The levels are automatically ordered alphabetically.
 levels(mydata$sex)
 nlevels(mydata$sex)
 ```
@@ -273,7 +275,8 @@ mydata %>%
   filter(weight < 5) %>% 
   select(species_id, sex, weight)
 
-# Filters data by weight and selects columns, creates a new object called "data_small"
+# Filters data by weight and selects columns, creates a new object 
+# called "data_small"
 data_small <- mydata %>% 
   filter(weight < 5) %>% 
   select(species_id, sex, weight)
