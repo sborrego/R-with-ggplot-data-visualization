@@ -1,12 +1,12 @@
 ---
 title: 'R with ggplot2: Data Visualization'
 author: "Stacey Borrego"
-date: "1/22/2023"
+date: "`r format(Sys.time(), '%m/%d/%y')`"
 output: 
+  word_document: default
   html_document: default
   pdf_document: 
       highlight: zenburn
-  word_document: default
 fontsize: 12pt
 urlcolor: blue
 linkcolor: red
@@ -35,11 +35,11 @@ Hadley Wickham
 
 ### Setting up a Project
 
-Whether you are using RStudio Cloud or have downloaded the RStudio IDE on your own computer, we will be working with a project. Projects are a helpful way to keep all of your related documents organized as well as a convenient method to access all documents locally. 
+Whether you are using RStudio/Posit Cloud or have downloaded the RStudio IDE on your own computer, we will be working with a project. Projects are a helpful way to keep all of your related documents organized as well as a convenient method to access all documents locally. 
 
-**RStudio Cloud**
+**RStudio/Posit Cloud**
 
-* Log in to RStudio Cloud and click on the large blue button on the far right side that says **New Project** 
+* Log in to RStudio/Posit Cloud and click on the large blue button on the far right side that says **New Project** 
 * Select **New RStudio Project**
 * Your workspace is now in a Project setting!
 * Rename your Project at the top by clicking on *Untitled Project*
@@ -295,7 +295,7 @@ data_complete <- mydata %>%
 
 head(data_complete)
 dim(data_complete)
-names(data_complete )
+names(data_complete)
 ```
 
 We are interested in plotting changes in species abundances over time so we need to modify the data for common species only. To do this, we will first count all the species and remove those with observations less than 50. Second we will filter our data set to keep only the common species.
@@ -313,7 +313,8 @@ species_counts
 data_complete <- data_complete %>% 
   filter(species_id %in% species_counts$species_id)
 
-# If done correctly the dimensions of the data frame is 30463 rows by 13 columns
+# If done correctly the dimensions of the data frame is 
+# 30463 rows by 13 columns
 dim(data_complete)
 
 ```
@@ -372,7 +373,7 @@ Each geom understands certain aesthetics. To learn more about a particular geom,
 
 Geom_point can be modified with the following aesthetics:
 
-* alpha - the opacity of a geom. Values of alpha range from 0 to 1, with lower values corresponding to more transparent colors.  
+* alpha - the opacity of a geom. Values of alpha range from 0 to 1, with lower values corresponding to more transparent colors.
 * color - colors the line or stroke of each point
 * fill - fills the point
 * group - controls which rows of the data get grouped together
