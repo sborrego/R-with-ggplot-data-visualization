@@ -1,9 +1,9 @@
 # R with ggplot2: Data Visualization  
-University of South Florida - Spring Workshop  
-Monday, February 27th, 2023  
-9:00 am - 10:30 am EST
+University of South Florida - Fall Workshop  
+Thursday, November 16th, 2023  
+9:30 am - 11:00 am EST
 
-The goal for this workshop is to build on the fundamental R skills introduced in [previous workshops](https://github.com/sborrego/r-programming-an-introduction) and focus on data visualization. We will predominately use packages from tidyverse including the powerful and popular ggplot2. This is a hands-on workshop, please follow the installation and RStudio access instructions provided prior to the date of the workshop.
+The goal for this workshop is to build on the fundamental R skills introduced in [previous workshops](https://github.com/sborrego/r-programming-an-introduction) and focus on data visualization. We will predominately use packages from Tidyverse including the powerful and popular ggplot2. This is a hands-on workshop, please follow the installation and RStudio access instructions provided prior to the date of the workshop.
 
 ## Install R and RStudio or get access on Posit (Formerly RStudio Cloud)
 
@@ -19,7 +19,7 @@ Website: [Posit Cloud](https://posit.cloud/)
 - Provide the necessary information or log in if you have an account with RStudio Cloud
 - Under *Your Workspace* on the left side, *Your Content* should be selected
 - On the far right, under your name at the top, click on the blue **New Project** button, then **New RStudio Project**
-- At the top you can *rename* the project by clicking on Untitled Project  
+- At the top you can *rename* the project by clicking on "Untitled Project"  
 
 You are all set! This workspace will be saved and ready to access anytime in the future.
 
