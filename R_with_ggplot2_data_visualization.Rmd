@@ -23,7 +23,7 @@ The goal for this workshop is to build on the fundamental R skills introduced in
 
 * Data Carpentry: [Data Analysis and Visualization in R for Ecologists](https://preview.carpentries.org/R-ecology-lesson/index.html)
 * [Tidyverse](https://tidyverse.org/): R packages for Data Science
-* [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garret Grolemund
+* [R for Data Science (2e)](https://r4ds.hadley.nz/) by Hadley Wickham and Garret Grolemund
 * [Advanced R](http://adv-r.had.co.nz/) by Hadley Wickham
 * [ggplot2: Elegant graphics for data analysis](https://ggplot2-book.org/) by 
 Hadley Wickham
