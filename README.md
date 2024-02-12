@@ -1,13 +1,15 @@
 # R with ggplot2: Data Visualization  
 University of South Florida - Fall Workshop  
-Thursday, November 16th, 2023  
-9:30 am - 11:00 am EST
+Tuesday, January 13th, 2024  
+9:00 am - 10:30 am EST
 
-The goal for this workshop is to build on the fundamental R skills introduced in [previous workshops](https://github.com/sborrego/r-programming-an-introduction) and focus on data visualization. We will predominately use packages from Tidyverse including the powerful and popular ggplot2. This is a hands-on workshop, please follow the installation and RStudio access instructions provided prior to the date of the workshop.
+The goal for this workshop is to build on the fundamental R skills introduced in [previous workshops](https://github.com/sborrego/r-programming-an-introduction) and focus on data visualization. We will predominately use R packages from Tidyverse including the powerful and popular ggplot2. This is a hands-on workshop, please follow the installation and RStudio access instructions provided prior to the date of the workshop.
 
 ## Install R and RStudio or get access on Posit (Formerly RStudio Cloud)
 
 To participate in this workshop you will need to have access to the programming language R and RStudio - see the options below. Please be prepared and have R and RStudio setup using either method before the workshop. If you are experience any trouble with installation, please contact me prior to the workshop **staceyborrego@gmail.com**.
+
+If you are using RStudio on your own computer, I also recommend that you install the Tidyverse package ahead of time. You may run into errors and will need to update your version of R and/or RStudio. Please reach out if you run into any issues.
 
 ### Option 1 - **recommended**
 
