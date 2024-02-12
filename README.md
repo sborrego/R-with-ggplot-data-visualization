@@ -9,7 +9,7 @@ The goal for this workshop is to build on the fundamental R skills introduced in
 
 To participate in this workshop you will need to have access to the programming language R and RStudio - see the options below. Please be prepared and have R and RStudio setup using either method before the workshop. If you are experience any trouble with installation, please contact me prior to the workshop **staceyborrego@gmail.com**.
 
-If you are using RStudio on your own computer, I also recommend that you install the Tidyverse package ahead of time. You may run into errors and will need to update your version of R and/or RStudio. Please reach out if you run into any issues.
+If you are using RStudio on your own computer, I also recommend that you install the [Tidyverse](https://www.tidyverse.org/) package ahead of time. You may run into errors and will need to update your version of R and/or RStudio. Please reach out if you run into any issues.
 
 ### Option 1 - **recommended**
 
